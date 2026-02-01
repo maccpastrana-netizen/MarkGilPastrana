@@ -35,7 +35,25 @@
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
 </head>
-
+<script>
+  /**
+   * Animation on scroll function and init
+   */
+  document.addEventListener('DOMContentLoaded', () => {
+    const selectTyped = document.querySelector('.typed');
+    if (selectTyped) {
+      let typed_strings = selectTyped.getAttribute('data-typed-items');
+      typed_strings = typed_strings.split(',');
+      new Typed('.typed', {
+        strings: typed_strings,
+        loop: true,
+        typeSpeed: 100,
+        backSpeed: 50,
+        backDelay: 2000
+      });
+    }
+  });
+</script>
 <body class="index-page">
 
   <header id="header" class="header dark-background d-flex flex-column">
@@ -618,7 +636,7 @@ ensure data accuracy across enterprise platforms.
 
     <div class="container">
       <div class="copyright text-center ">
-        <p>© <span>Copyright</span> <strong class="px-1 sitename">Macc Pastrana</strong> <span>All Rights Reserved</span></p>
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">Mark Gil Pastrana</strong> <span>All Rights Reserved</span></p>
       </div>
 
     </div>
@@ -646,25 +664,7 @@ ensure data accuracy across enterprise platforms.
   <!-- Main JS File -->
   <script src="js/main.js"></script>
 					  
-<script>
-  /**
-   * Animation on scroll function and init
-   */
-  document.addEventListener('DOMContentLoaded', () => {
-    const selectTyped = document.querySelector('.typed');
-    if (selectTyped) {
-      let typed_strings = selectTyped.getAttribute('data-typed-items');
-      typed_strings = typed_strings.split(',');
-      new Typed('.typed', {
-        strings: typed_strings,
-        loop: true,
-        typeSpeed: 100,
-        backSpeed: 50,
-        backDelay: 2000
-      });
-    }
-  });
-</script>
+
 </body>
 
 </html>
