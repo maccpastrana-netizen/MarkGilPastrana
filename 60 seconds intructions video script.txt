@@ -1,0 +1,10 @@
+[0:00–0:10] – Greeting & Name
+"Hi, I’m Maria Pastrana, a Data Integration Analyst and Automation Specialist based in Oriental Mindoro, Philippines."
+[0:10–0:25] – What You Do
+"For over six years, I’ve been designing and optimizing data workflows that drive business intelligence and operational efficiency. I specialize in tools like Xceptor to automate complex processes and ensure data accuracy across enterprise platforms."
+[0:25–0:40] – What Makes You Unique
+"What sets me apart is my ability to connect systems seamlessly and reduce manual effort—freeing teams to focus on strategy instead of spreadsheets. I love solving problems that others find too messy or too technical."
+[0:40–0:55] – What You’re Looking For
+"I’m currently open to freelance opportunities and collaborations where I can help businesses streamline their data operations and unlock insights faster."
+[0:55–1:00] – Closing
+"Thanks for watching! Feel free to explore my portfolio or reach out—I'd love to connect."
